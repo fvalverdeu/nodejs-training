@@ -17,7 +17,7 @@
     "predevelop": "npm run clean && npm run lint:code",
     "develop": "nodemon ./src/server.ts",
     "pretest": "npm run clean && npm run lint:report",
-    "test": "NODE_ENV=test jest --passWithNoTests",
+    "test": "cross-env NODE_ENV=test jest --passWithNoTests",
     "test:unit": "npm test -- test/unit",
     "test:integration": "npm test -- test/integration",
     "test:coverage": "npm test -- --coverage",
@@ -27,7 +27,7 @@
     "build": "tsc && gulp compress && gulp copy",
     "serve": "cross-env NODE_ENV=production node ./dist/bin/api"
   },
-  "repository": "https://github.com/ldiego73/node-api-template",
+  "repository": "https://github.com/ldiego73/node-api-template-koa",
   "author": "Luis Diego",
   "license": "MIT",
   "dependencies": {

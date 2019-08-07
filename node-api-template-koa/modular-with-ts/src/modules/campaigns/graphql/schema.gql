@@ -1,0 +1,11 @@
+type Campaign {
+  id: Int
+  campaign_code: String
+  short_name: String
+  start_date: String
+  end_date: String
+}
+
+type Query {
+  campaign(iso: String!, region: String!, zona: String!): Campaign
+}
