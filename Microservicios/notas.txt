@@ -1,0 +1,17 @@
+npm init
+npm i koa koa-router
+npm i add -D @babel/cli @babel/core @babel/node @babel/polyfill @babel/preset-env
+npm i add -D @babel/plugin-proposal-export-default-from @babel/plugin-proposal-export-namespace-from babel-preset-minify
+npm i add -D nodemon gulp gulp-copy gulp-uglify-es
+
+crear babelrc.js
+    el código se adapta a la versión de node que tienes instalada. node: true,
+    versión minificada x seguridad "minify",
+
+crear modemon.json
+    se reinicia el server con los cambios "restartable": "rs",
+
+http://www.techempower.com/benchmarks/#section=data-r17&hw=cl&test=json&l=zik0sf-1
+
+https://github.com/ldiego73/node-api-template/tree/master/modular
+    

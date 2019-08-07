@@ -1,0 +1,30 @@
+{
+  "name": "microservicios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon src/server.js"
+  },
+  "author": "FVU",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "add": "^2.0.6",
+    "babel-preset-minify": "^0.5.0",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "nodemon": "^1.19.1"
+  }
+}
