@@ -1,0 +1,7 @@
+http://olegilyenko.github.io/presentation-graphql-introduction/#/
+
+https://api-qa.belcorp.biz/campaigns/PE?region=02&zone=2121
+https://api-qa.belcorp.biz/consultants/PE
+https://api-qa.belcorp.biz/catalogs/PE?campaign_code=201911
+x-access-token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNyIjoiYXBwUE9DIiwiaWF0IjoxNTY1MTkyNDc4LCJleHAiOjE1NjUyNzg4Nzh9.OMXvFP8gwe_wkQrptui9WcZHN91hH2V7HG4LSl4cHcM
